@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="stylesheet" href="mystyle.css">
+<title>CONNECT</title>
+  <meta name= "author" content="Jack Klabunde">
+  <meta name= "keywords" content= "CSS, HTML">
+  <meta charset= "UTF-8">
+  <meta name= "viewport" content="width=device-witdth, initial-scale+1.0">
+</head>
+
+
+<body>
+<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+<script>
+//Get the button:
+mybutton = document.getElementById("myBtn");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0; // For Safari
+  document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+}
+</script>
+
+
+
+<div class="header">
+	<h1>Chef Jack's Recipes</h1>
+	<h2 style="text-decoration:underline;">Connect</h2>
+</div>
+
+
+<ul>
+ 
+  <li><a href="index.html">Home</a></li>
+  <li><a href="recipes.html">Recipes</a></li>
+  <li><a href="equipment.html">Equipment</a></li>
+  <li><a class="active" href="connect.html">Connect</a></li>
+  <li><a href="about.html">About</a></li>
+  
+</ul>
+
+
+<p style="font-size:10px;">*Disclaimer* none of these people are actually staff members nor did they write any of the articles here but they're people who were very influential to me in my cooking career and this was a fun way to pay tribute to them</p>
+
+
+
+<div class="articlebox">
+	
+	<div><a href="https://twitter.com/kenjilopezalt"><img src="kenji.jpg" alt="kenji" style="float:left; height:auto; width:15%;"></a><a href="https://twitter.com/kenjilopezalt">J Kenji-Lopez Alt</a><br><p style="font-size: 70%;">
+	I spend the majority of my time with my toddler. My first children’s book, Every Night is Pizza Night, is out on 9/1/2020. I’m also a New York Times food columnist, and the Chief Culinary Advisor for Serious Eats, home of the best, most thoroughly-tested and explained recipes and food features, well, pretty much anywhere. Additionally, I’m the chef (and a partner) at Wursthall in San Mateo, a German-inspired California beer hall and restaurant. You can try some of my food there. I’m also a huge fan of Backhaus, a San Mateo bakery specializing in naturally-leavened sourdough, pretzels, and European-style pastries (full disclosure: I have financially involvement with their business). I live in San Mateo with my wife Adriana, my daughter Alicia, and our two dogs, Jamón and Shabu.
+
+People ask me about my name. My mother is Japanese and my father is American of German descent. My parents named me James Kenji Alt. I have always gone by Kenji. When my wife, Adriana López, and I got married, we both changed our last names to López-Alt. I am not latino in any way, though I do visit Colombia at least once a year and love food from all over Latin America.</p></div>
+
+	<p></p>
+</div>
+
+<div class="articlebox2">
+	
+	<div><a href="https://twitter.com/ChefRoyChoi?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><img src="https://media.gq.com/photos/5c3f8b2b33c33e2c047bb63f/3:4/w_999,h_1332,c_limit/Level-Up-Roy-Choi-GQ-2019-011619-3x2.png" alt="roy choi" style="float:left; height:auto; width:15%;"></a><a href="https://twitter.com/ChefRoyChoi?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor">Roy Choi</a><br><p style="font-size:70%;">
+	Roy Choi was born in Seoul, Korea and raised in Los Angeles, California. Choi is known as one of the architects of the modern food truck movement through Kogi BBQ by merging food and social media with community and honoring the street food culture that laid the path before him, and for his civic minded TV show ‘Broken Bread’ on KCET/Tastemade, which in 2020 won him a James Beard Foundation Award for Outstanding Host in a television series. On a global scale, Roy is co-host in the full blown Netflix cooking series ‘The Chef Show’ with Jon Favreau. He is a graduate of the Culinary Institute of America. In 2010, Food and Wine magazine named him Best New Chef. His cookbook/memoir L.A. Son was a NY Times Bestseller in 2013. In 2016 he was named TIME 100 Most Influential People in the World. And in 2017, LocoL in Watts, received the first ever LA Times Restaurant of the Year award. Roy resides in Los Angeles where he is a voice and advocate for street food culture past, present, and future, and the co-owner, co-founder, and chef of Kogi BBQ, Chego!, Best Friend at Park MGM Las Vegas, and LocoL.</p></div>
+
+	<p></p>
+</div>
+
+<div class="articlebox2">
+	
+	<div><a href="https://twitter.com/mattymatheson?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><img src="https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2020%2F04%2F000_HBM29_Matty_Matheson_Mobile.jpg?w=2000&cbr=1&q=90&fit=max" alt="Matty Matheson" style="float:left; height:auto; width:15%;"></a><a href="https://twitter.com/mattymatheson?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor">Matty Matheson</a><br><p style="font-size:70%;">Matthew James Matheson is a Canadian chef and internet personality. He was the executive chef of Parts & Labour, a restaurant located in Toronto, Canada, which permanently closed on January 1, 2019. Matheson regularly appeared on Vice's show Munchies. </p></div>
+
+	<p></p>
+</div>
+
+<div class="footer">
+	<p style="font-size:12px;">ALL RIGHTS RESERVED TO CHEF JACK LLC</p>
+	<a href="index.html">Home</a>
+	<a href="recipes.html">Recipes</a>
+	<a href="equipment.html">Equipment</a>
+	<a href="connect.html">Connect</a>
+	<a href="about.html">About</a>
+	<br>
+	<br>
+	<a href="connect.html">RELOAD PAGE</a>
+	<br>
+	<br>
+	<a href="index.html">BACK TO HOME</a>
+</div>
+
+</body>
+</html>
+
+

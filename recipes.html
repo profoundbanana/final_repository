@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="stylesheet" href="mystyle.css">
+<title>RECIPES</title>
+  <meta name= "author" content="Jack Klabunde">
+  <meta name= "keywords" content= "CSS, HTML">
+  <meta charset= "UTF-8">
+  <meta name= "viewport" content="width=device-witdth, initial-scale+1.0">
+  <!-- One of the biggest improvements i made between this version and the final draft was that I worked througha a few things to make the site more responsive including using percent values in order to make sure that things scaled properly
+  i also went through and fixed a couple of links that weren't working properly and made sure that all of my pages were redirecting correctly. There were also just a bunch of w3 validation errors to go through which is always a great time.-->
+</head>
+
+<body>
+
+
+
+<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
+
+
+<script>
+//Get the button
+var mybutton = document.getElementById("myBtn");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
+
+
+
+
+<div class="header">
+	<h1>Chef Jack's Recipes</h1>
+	<h2 style="text-decoration:underline;">Recipes</h2>
+</div>
+
+
+<ul>
+
+  <li><a href="index.html">Home</a></li>
+  <li><a class="active" href="recipes.html">Recipes</a></li>
+  <li><a href="equipment.html">Equipment</a></li>
+  <li><a href="connect.html">Connect</a></li>
+  <li><a href="about.html">About</a></li>
+
+</ul>
+
+<div class="articlebox">
+	
+	<div><a href="https://cooking.nytimes.com/recipes/4735-old-fashioned-beef-stew"><img src="https://static01.nyt.com/images/2021/01/15/dining/15COOKING-OLD-BEEF-STEW2/15COOKING-OLD-BEEF-STEW2-articleLarge-v2.jpg" alt="beef stew" style="float:left; height:auto; width:15%;"></a><a href="https://cooking.nytimes.com/recipes/4735-old-fashioned-beef-stew">Old Fashioned Beef Stew</a><br>A Delicious and warming slow cooked beef stew
+	to keep you warm during the winter even on the coldest of nights!</div>
+
+	<p></p>
+</div>
+
+<div class="articlebox2">
+	
+	<div><a href="https://www.gimmesomeoven.com/fried-rice-recipe/"><img src="https://www.gimmesomeoven.com/wp-content/uploads/2017/07/How-To-Make-Fried-Rice-Recipe-2-1.jpg" alt="fried rice" style="float:left; height:auto; width:15%;"></a><a href="https://www.gimmesomeoven.com/fried-rice-recipe/">Fried Rice</a><br>Delicious fried rice for when you've got a fridge full of leftovers and are looking for an easy weeknight meal!</div>
+
+	<p></p>
+</div>
+
+<div class="articlebox2">
+	
+	<div><a href="https://www.cookingclassy.com/baked-chicken-thighs/"><img src="https://meateatingmilitaryman.com/wp-content/uploads/2019/01/smoked-chicken-thighs.jpg" alt="chicken thighs" style="float:left; height:auto; width:15%;"></a><a href="https://www.cookingclassy.com/baked-chicken-thighs/">Baked Chicken Thighs</a><br>Excellent all around baked chicken thighs that can be used as a main dish our as the building block to pastas soups and more!</div>
+
+	<p></p>
+</div>
+
+<div class="footer">
+	<p style="font-size:12px;">ALL RIGHTS RESERVED TO CHEF JACK LLC</p>
+	<a href="index.html">Home</a>
+	<a href="recipes.html">Recipes</a>
+	<a href="equipment.html">Equipment</a>
+	<a href="connect.html">Connect</a>
+	<a href="about.html">About</a>
+	<br>
+	<br>
+	<a href="recipes.html">RELOAD PAGE</a>
+	<br>
+	<br>
+	<a href="index.html">BACK TO HOME</a>
+</div>
+
+</body>
+</html>
+
+

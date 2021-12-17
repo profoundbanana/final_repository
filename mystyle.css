@@ -1,0 +1,136 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+}
+
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: #333;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+}
+
+#myBtn:hover {
+  background-color: #555;
+}
+.header { 
+	padding: 50px;
+	text-align: center;
+	background-color: #038052;
+	color: white;
+	font-size: 30px;
+	font-family: Arial;
+	}
+
+ul {
+  
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  text-align: center;
+  
+}
+
+li {
+	
+	display: inline-block;
+
+
+  
+}
+
+
+
+li a {
+  display: block;
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #04AA6D;
+}
+
+/* COLOR */
+/* 1: I decided on the color scheme of the site by picking colors that were relatively conducive to a food related environment. Green is a color that you generally see associated with fresh and organic ingredients so i chose green to use as the color pallete for the website */
+/* 2: Color values: 038052,333,111,04AA6D,03805260 */
+/* 3: the header and the footer are the most directly impacted by the color scheme because the rest of the color that will be on the site will come from pictures */
+
+/* FONT STRATEGY */
+/* I have arial and helvetica as font mostly because they are widly recognized and clean fonts */
+/* The size of the header font is 30px, the font size of the nav is default, the font of the articles is 170% so it is responsive */
+
+.articlebox {
+  padding: .5%;
+  display:flex;
+  margin-top: 5%;
+  margin:5%;
+  border-style: groove;
+  background-color: D3D3D3;
+  font-family: Helvetica;
+ 
+  
+}
+
+.articlebox2 {
+  padding: .5%;
+  display:flex;
+  margin-top: %;
+  margin:5%;
+  border-style: groove;
+  background-color: D3D3D3;
+  font-family: Helvetica;
+ 
+  
+}
+
+  
+
+
+.articlebox > div {
+  background-color: #f1f1f1;
+  margin-left: 20%;
+  margin-right:10%;
+  padding: 5px;
+  font-size: 170%;
+  text-align:center;
+  float:center;
+}
+
+.articlebox2 > div {
+  background-color: #f1f1f1;
+  margin-left: 20%;
+  margin-right:10%;
+  padding: 5px;
+  font-size: 170%;
+  text-align:center;
+  float:center;
+}
+
+.footer {
+   padding-top: 1%;
+   padding-bottom: 1%;
+   position:bottom;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: #03805260;
+   color: white;
+   text-align: center;
+}
